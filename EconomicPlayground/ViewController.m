@@ -31,6 +31,7 @@
      {
          NSArray* temp = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
          NSArray* tempTwo = [temp valueForKey:@"data"];
+         NSLog(@"Value of Dolar in (Date , Peso) format - \n\n%@", tempTwo);
          NSLog(@"%@", [tempTwo objectAtIndex:1]);
          for (NSDictionary* dict in tempTwo) {
              if ([dict isKindOfClass:[NSDictionary class]]) {
@@ -39,7 +40,7 @@
          }
          [self.dates addObjectsFromArray:[self.dicts allKeys]];
          [self.toUSDs addObjectsFromArray:[self.dicts allValues]];
-         [self displayData];
+//         [self displayData];
      }];
 }
 
