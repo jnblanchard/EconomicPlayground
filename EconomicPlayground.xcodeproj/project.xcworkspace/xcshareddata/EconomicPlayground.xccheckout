@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D44A2A9A-6487-4226-9D8F-0656A41D3A75</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EconomicPlayground</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>927D17CE6912CBDB34A87C61C105F436ACDD64E6</key>
+		<string>https://github.com/jnblanchard/EconomicPlayground.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EconomicPlayground.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>927D17CE6912CBDB34A87C61C105F436ACDD64E6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jnblanchard/EconomicPlayground.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>927D17CE6912CBDB34A87C61C105F436ACDD64E6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>927D17CE6912CBDB34A87C61C105F436ACDD64E6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>EconomicPlayground</string>
+		</dict>
+	</array>
+</dict>
+</plist>
