@@ -39,11 +39,19 @@
                                 <rect key="frame" x="16" y="54" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkTextField:" destination="mEG-3D-iQf" eventType="editingDidEnd" id="VFd-FS-1oM"/>
+                                    <action selector="checkTextField:" destination="mEG-3D-iQf" eventType="editingDidEndOnExit" id="iEt-tR-H8u"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lt6-Yu-Il7">
                                 <rect key="frame" x="16" y="92" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkTextFieldTwo:" destination="mEG-3D-iQf" eventType="editingDidEndOnExit" id="Iua-S1-UDb"/>
+                                    <action selector="checkTextFieldTwo:" destination="mEG-3D-iQf" eventType="editingDidEnd" id="obI-Ma-x8Y"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdJ-Xg-C7m">
                                 <rect key="frame" x="121" y="92" width="183" height="30"/>
@@ -51,6 +59,9 @@
                                     <color key="titleColor" red="1" green="0.12889330169999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="currencyButtonHit:" destination="mEG-3D-iQf" eventType="touchUpInside" id="Ghd-ly-O9g"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="($) USD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wm3-jG-lPT">
                                 <rect key="frame" x="121" y="63" width="183" height="21"/>
@@ -58,10 +69,23 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxf-xG-ulC">
+                                <rect key="frame" x="16" y="130" width="288" height="30"/>
+                                <state key="normal" title="Convert">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="convertButtonPressed:" destination="mEG-3D-iQf" eventType="touchUpInside" id="qyG-EC-fnV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="xCp-nn-Wh7"/>
+                    <connections>
+                        <outlet property="currencyTextField" destination="lt6-Yu-Il7" id="SO9-H7-kaL"/>
+                        <outlet property="usdTextField" destination="pRA-ZH-pDc" id="WBc-44-Jlw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P1d-AT-rH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
