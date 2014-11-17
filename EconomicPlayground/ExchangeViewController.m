@@ -17,6 +17,10 @@
 @property NSMutableArray* toUSDs;
 @property NSMutableArray* dataSet;
 @property double exchangeRate;
+@property UIView* maskView;
+@property UIPickerView* _providerPickerView;
+@property UIToolbar *_providerToolbar;
+
 @end
 
 @implementation ExchangeViewController

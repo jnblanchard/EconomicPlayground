@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A55B88491A11835E001795A4 /* ExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55B88481A11835E001795A4 /* ExchangeViewController.m */; };
+		A5B273EA1A1A849E003C1C13 /* EconomicGoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B273E91A1A849E003C1C13 /* EconomicGoodViewController.m */; };
 		A5B2F4641A0AD804009C4F75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2F4631A0AD804009C4F75 /* main.m */; };
 		A5B2F4671A0AD804009C4F75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B2F4661A0AD804009C4F75 /* AppDelegate.m */; };
 		A5B2F46A1A0AD804009C4F75 /* EconomicPlayground.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5B2F4681A0AD804009C4F75 /* EconomicPlayground.xcdatamodeld */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		A55B88471A11835E001795A4 /* ExchangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeViewController.h; sourceTree = "<group>"; };
 		A55B88481A11835E001795A4 /* ExchangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeViewController.m; sourceTree = "<group>"; };
+		A5B273E81A1A849E003C1C13 /* EconomicGoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EconomicGoodViewController.h; sourceTree = "<group>"; };
+		A5B273E91A1A849E003C1C13 /* EconomicGoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EconomicGoodViewController.m; sourceTree = "<group>"; };
 		A5B2F45E1A0AD804009C4F75 /* EconomicPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EconomicPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B2F4621A0AD804009C4F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B2F4631A0AD804009C4F75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +93,8 @@
 				A5B2F4661A0AD804009C4F75 /* AppDelegate.m */,
 				A55B88471A11835E001795A4 /* ExchangeViewController.h */,
 				A55B88481A11835E001795A4 /* ExchangeViewController.m */,
+				A5B273E81A1A849E003C1C13 /* EconomicGoodViewController.h */,
+				A5B273E91A1A849E003C1C13 /* EconomicGoodViewController.m */,
 				A5B2F46E1A0AD804009C4F75 /* Main.storyboard */,
 				A5FDF1B91A0D8A1200CBB45E /* Data.h */,
 				A5FDF1BA1A0D8A1200CBB45E /* Data.m */,
@@ -229,6 +234,7 @@
 			files = (
 				A5FDF1BB1A0D8A1200CBB45E /* Data.m in Sources */,
 				A55B88491A11835E001795A4 /* ExchangeViewController.m in Sources */,
+				A5B273EA1A1A849E003C1C13 /* EconomicGoodViewController.m in Sources */,
 				A5B2F4671A0AD804009C4F75 /* AppDelegate.m in Sources */,
 				A5B2F46A1A0AD804009C4F75 /* EconomicPlayground.xcdatamodeld in Sources */,
 				A5B2F4641A0AD804009C4F75 /* main.m in Sources */,
